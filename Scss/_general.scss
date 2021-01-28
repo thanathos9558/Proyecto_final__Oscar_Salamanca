@@ -1,0 +1,211 @@
+/* generales */
+
+$base-font-family: 'Montserrat',
+sans-serif;
+body {
+    font-family: $base-font-family;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Estilos generales */
+
+* {
+    font-family: $base-font-family;
+    font-weight: 400;
+}
+
+.main {
+    margin: 10vh 5%;
+    margin-bottom: 0;
+    min-height: 75vh;
+}
+
+#firstElement {
+    padding-top: 2%;
+}
+
+.footer {
+    min-height: 15vh;
+    padding: 1% 4%;
+}
+
+h1 {
+    font-size: 1.9rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+h5 {
+    font-size: 1.1rem;
+}
+
+h6 {
+    font-size: 0.9rem;
+}
+
+p,
+a {
+    font-size: 0.8rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $base-font-family;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Cardo', serif;
+    font-weight: 400;
+}
+
+.row {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.m-2 {
+    margin: 2%;
+}
+
+.mt-4 {
+    margin-top: 4%;
+}
+
+.mb-2 {
+    margin-bottom: 2%;
+}
+
+.pl-2 {
+    padding-left: 2%;
+}
+
+.pr-2 {
+    padding-right: 2%;
+}
+
+.col {
+    width: auto;
+    float: left;
+}
+
+.col-1 {
+    width: auto;
+    float: left;
+}
+
+.col-2 {
+    width: 40%;
+    float: left;
+    margin: 0 5%
+}
+
+.col-3 {
+    width: 10%;
+    float: left;
+}
+
+.footer input[type="submit"] {
+    background-color: #20839C;
+    border: none;
+    border-radius: 10px;
+    color: #f8f1f1;
+    padding: 5px 15px;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer input[type="email"] {
+    margin-right: 10px;
+}
+
+
+/* Estilos Barra Navegación */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    min-height: 8vh;
+    width: 100%;
+    padding: 0 10%;
+    text-transform: uppercase;
+    font-size: smaller;
+    z-index: 1;
+}
+
+
+/* flexbox navbar  */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a,
+#botonContacto,
+.logo {
+    float: left;
+    display: block;
+    color: #f8f1f1;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a {
+    padding: 18px;
+}
+
+
+/* estilos boton contacto */
+
+#botonContacto {
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.boton-contacto {
+    text-align: center;
+    padding-top: 9px;
+    margin-right: 5%;
+}
+
+.boton-contacto button {
+    background-color: #f8f1f1;
+    border-radius: 15px;
+    border: none;
+}
+
+.boton-contacto button:hover {
+    background-color: #16697a;
+}
+
+.boton-contacto a {
+    color: black!important;
+}
+
+.boton-contacto a:hover {
+    color: #f8f1f1!important;
+}

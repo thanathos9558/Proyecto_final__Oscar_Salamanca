@@ -1,0 +1,55 @@
+@import "general";
+@import "grids";
+@import "colores";
+@import "animaciones";
+
+/* Estilos dropdown */
+
+.idioma {
+    list-style-type: none;
+    margin: 0;
+    padding: 18px 16px;
+    overflow: hidden;
+    color: white;
+    li {
+        float: left;
+        .dropdown {
+            display: inline-block;
+        }
+    }
+    a,
+    .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f8f1f1;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    a {
+        color: black;
+        padding: 10px 20px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    a:hover {
+        background-color: #0d2e2e;
+        color: #f8f1f1;
+    }
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.icono {
+    padding-left: 5px;
+}
