@@ -1,0 +1,25 @@
+/* gridds */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 15%);
+    grid-template-rows: 15% 15% 15% 15%;
+    gap: 2% 2%;
+}
+
+.grid-item {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 22%);
+    grid-template-rows: repeat(2, 20%);
+    gap: 3% 4%;
+}
+
+.grid-item2 {
+    text-align: center;
+}
