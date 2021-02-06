@@ -5,164 +5,181 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
-        <div id="navBar">
+        <div class="navbar row">
             <!-- contenido header -->
+            <!-- Logo -->
+            <div class="col-1">
+                <a class="logo" href="index.html"><img src="./assets/Astroneticcs_Logo3.png" alt="logo" srcset="" width="100%" height="50px"></a>
+            </div>
 
-            <div class="menu-submenu">
-                <!-- Menu navegacion -->
-                <ul>
-                    <li>
-                        <a><img src="./assets/Astroneticcs_Logo3.png" alt="logo" width="100%"></a>
-                    </li>
-                    <li class="pb-3 pl-3"><a href="index.html" class="active">Inicio</a></li>
-                    <li class="pb-3"><a href="nosotros.html">Nosotros</a></li>
-                    <li class="pb-3"><a href="servicios.html">Servicios</a></li>
-                    <li class="pb-3"><a href="proyectos.html">Proyectos</a></li>
-                    <li class="pb-3"><a href="contacto.html">Contacto</a></li>
-                    <li class="pb-3"><a href="" class="drop">Idioma <i>»</i></a>
-                        <!-- lista desplegable -->
-                        <ul>
-                            <li><a>Es</a></li>
-                            <li><a>En</a></li>
-                        </ul>
+            <div class="col-2">
+                <nav>
+                    <!-- Menu navegacion -->
+                    <a href="index.html">Inicio</a>
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="servicios.html">Servicios</a>
+                    <a href="proyectos.html">Proyectos</a>
+                </nav>
+            </div>
+
+            <div class="col-3 boton-contacto">
+                <button> <a id="botonContacto" href="contacto.html">Contacto</a></button>
+            </div>
+
+            <div class="col-3 ">
+                <ul class="idioma">
+                    <li class="dropdown">
+                        <a id="dropbton">Idioma <span class="icono"><i class="fas fa-chevron-down"></i></span></a>
+                        <div class="dropdown-content">
+                            <a href="#">Es</a>
+                            <a href="#">En</a>
+                        </div>
                     </li>
                 </ul>
             </div>
-        </div>
+
     </header>
-    <h2 class="pt-5">SERVICIOS</h2>
+    <div class="main">
+        <h1>PÁGINA SERVICIOS</h1>
+        <h2>BENEFICIOS</h2>
+        <table class="tablaServicios">
+            <thead>
+                <tr>
+                    <th>Plan Sencillo</th>
+                    <th>Plan Premium</th>
+                    <th>Plan Empresarial</th>
+                </tr>
+            </thead>
 
-    <h3>Beneficios</h3>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Plan Sencilo</th>
-                <th>Plan Premium</th>
-                <th>Plan Empresarial</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    <ul>
-                        <li>
-                            1 sitio web
-                        </li>
-                        <li>
-                            2 Cuentas de correo
-                        </li>
-                        <li>
-                            Ancho de banda
-                        </li>
-                        <li>
-                            Aceleración de WordPress (LSCWP)
-                        </li>
+            <tbody>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>
+                                1 sitio web
+                            </li>
+                            <li>
+                                2 Cuentas de correo
+                            </li>
+                            <li>
+                                Ancho de banda
+                            </li>
+                            <li>
+                                Aceleración de WordPress (LSCWP)
+                            </li>
 
-                        <li>
-                            Copias de seguridad mensual
-                        </li>
-                        <li>
-                            1X Recursos asignados
-                        </li>
-                    </ul>
-                </td>
+                            <li>
+                                Copias de seguridad mensual
+                            </li>
+                            <li>
+                                1X Recursos asignados
+                            </li>
+                        </ul>
+                    </td>
 
-                <td>
-                    <ul>
-                        <li>
-                            Número de sitios ilimitado
-                        </li>
-                        <li>
-                            Cuentas de correo ilimitadas
-                        </li>
-                        <li>
-                            Ancho de banda
-                        </li>
-                        <li>
-                            Aceleración de WordPress (LSCWP)
-                        </li>
+                    <td>
+                        <ul>
+                            <li>
+                                Número de sitios ilimitado
+                            </li>
+                            <li>
+                                Cuentas de correo ilimitadas
+                            </li>
+                            <li>
+                                Ancho de banda
+                            </li>
+                            <li>
+                                Aceleración de WordPress (LSCWP)
+                            </li>
+                            <li>
+                                Copias de seguridad semanales
+                            </li>
+                            <li>
+                                2X Recursos asignados
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                Número de sitios ilimitado
+                            </li>
+                            <li>
+                                Cuentas de correo ilimitadas
+                            </li>
 
-                        <li>
-                            Copias de seguridad semanales
-                        </li>
-                        <li>
-                            2X Recursos asignados
-                        </li>
-                    </ul>
-                </td>
+                            <li>
+                                Ancho de banda
+                            </li>
+                            <li>
+                                Aceleración de WordPress (LSCWP)
+                            </li>
+                            <li>
+                                Certificado SSL y dominio gratis
+                            </li>
+                            <li>
+                                Copias de seguridad diarias
+                            </li>
+                            <li>
+                                4X Recursos asignados
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Precio: $</th>
+                    <th>Precio: $$</th>
+                    <th>Precio: $$$</th>
 
-                <td>
-                    <ul>
-                        <li>
-                            Número de sitios ilimitado
-                        </li>
-                        <li>
-                            Cuentas de correo ilimitadas
-                        </li>
-                        <li>
-                            Ancho de banda
-                        </li>
-                        <li>
-                            Aceleración de WordPress (LSCWP)
-                        </li>
-                        <li>
-                            Certificado SSL y dominio gratis
-                        </li>
-                        <li>
-                            Copias de seguridad diarias
-                        </li>
-                        <li>
-                            4X Recursos asignados
-                        </li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <th>Precio: $</th>
-                <th>Precio: $$</th>
-                <th>Precio: $$$</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-            </tr>
-        </tbody>
-    </table>
-    <footer class="background-footer">
+    <footer class="footer">
         <!-- contenedor footer -->
-        <div id="lista-footer">
+        <div class="row">
             <!-- columnas -->
-            <div class="mitad">
+            <div class="col">
                 <!-- logo -->
-                <img width="20%" src="assets/Astroneticcs_Logo3.png" alt="imagen">
+                <img src="./assets/Astroneticcs_Logo3.png" alt="imagen" width="100%" height="60px">
             </div>
-            <div>
-                <!-- enlaces mapa sitio -->
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
-                    <li><a href="proyectos.html">Proyectos</a></li>
-                </ul>
+            <div class="col pl-2 pr-2">
+                <!-- Menu navegacion -->
+                <p>MAPA DE SITIO</p>
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="proyectos.html">Proyectos</a>
+
             </div>
-            <div>
+            <div class="col-3 ">
                 <!-- redes sociales -->
-                <a href="https://es-la.facebook.com/">Facebook</a>
-                <a href="https://www.instagram.com/">Instagram</a>
-                <a href="https://www.youtube.com/">Youtube</a>
-                <a href="https://www.twitter.com/">Twitter</a>
+                <p>SÍGUENOS EN </p>
+                <a href="https://es-la.facebook.com/"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
             </div>
-            <div>
+
+            <div class="m-2">
                 <!-- Suscribete -->
                 <form action="" method="post">
-                    <input type="email" name="email" placeholder="email"><input type="submit" value="Suscribete">
+                    <input type="email" name="email" placeholder=" Email">
+                    <input type="submit" value="Suscribete">
                 </form>
             </div>
         </div>
+
     </footer>
 </body>
 
