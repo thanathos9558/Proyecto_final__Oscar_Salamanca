@@ -1,0 +1,41 @@
+.margenTotal {
+  margin: 0 5%; }
+
+.headSpace {
+  margin-top: 5%; }
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 2%; }
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% 75%;
+  grid-template-rows: 10% 10% 10% 10% 10%;
+  gap: 0 5%; }
+  .grid-container-two {
+    display: grid;
+    grid-template-columns: repeat(4, 22%);
+    grid-template-rows: repeat(2, 20%);
+    gap: 1% 4%; }
+    .grid-container-two .grid-item-two {
+      text-align: center; }
+  .grid-container-three {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    gap: 0 5%;
+    margin: 1% 0; }
+  .grid-container .grid-item {
+    align-self: center;
+    justify-self: center;
+    text-align: justify;
+    margin-top: 3%; }
+    .grid-container .grid-item img {
+      height: 60px;
+      width: 100%; }
