@@ -35,7 +35,7 @@ h2 {
     align-self: center;
     justify-self: center;
     text-align: justify;
-    margin-top: 1%; }
+     }
     .grid-container .grid-item img {
-      
+      margin:5%;
       width: 120px; }
