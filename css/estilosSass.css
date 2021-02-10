@@ -35,6 +35,7 @@ h2 {
     align-self: center;
     justify-self: center;
     text-align: justify;
+    padding-top:2%;
      }
     .grid-container .grid-item img {
       margin:5% 0 5% 10%;
